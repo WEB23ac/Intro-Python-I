@@ -16,6 +16,19 @@ y = "7"
 # YOUR CODE HERE
 
 
+def print_mixed_types(x, y):
+    print(int(x) + int(y))
+
+
+print_mixed_types(x, y)
+
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+
+
+def print_stringed_numbers(x, y):
+    print(str(x) + str(y))
+
+
+print(print_stringed_numbers(x, y))
